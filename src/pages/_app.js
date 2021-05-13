@@ -1,4 +1,4 @@
-import { ApolloClient, ApolloProvider, InMemoryCache } from "../graphql/apollo-client";
+import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 
 import { link } from '../graphql/link';
 

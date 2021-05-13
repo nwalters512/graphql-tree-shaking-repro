@@ -1,4 +1,4 @@
-import { useQuery } from "../graphql/apollo-client";
+import { useQuery } from "@apollo/client";
 
 // const ALL_PEOPLE_2 = gql`
 //   query AllPeople {
