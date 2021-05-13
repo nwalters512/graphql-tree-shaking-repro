@@ -1,0 +1,1 @@
+# graphql-tree-shaking-repro
