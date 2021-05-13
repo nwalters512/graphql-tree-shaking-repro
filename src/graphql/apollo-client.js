@@ -1,1 +1,8 @@
-export * from '@apollo/client';
+export {
+  useQuery,
+  ApolloLink,
+  Observable,
+  ApolloClient,
+  ApolloProvider,
+  InMemoryCache,
+} from "@apollo/client";
