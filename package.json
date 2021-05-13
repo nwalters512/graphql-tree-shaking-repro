@@ -2,7 +2,7 @@
   "name": "graphql-tree-shaking-repro",
   "version": "0.1.0",
   "private": true,
-  "sideEffects": true,
+  "sideEffects": false,
   "scripts": {
     "dev": "next dev",
     "build": "ANALYZE=true next build",

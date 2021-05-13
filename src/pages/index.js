@@ -1,6 +1,6 @@
 import { useQuery } from "../graphql/apollo-client";
 
-// const ALL_PEOPLE = gql`
+// const ALL_PEOPLE_2 = gql`
 //   query AllPeople {
 //     people {
 //       id
