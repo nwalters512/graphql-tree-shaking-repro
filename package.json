@@ -2,13 +2,15 @@
   "name": "graphql-tree-shaking-repro",
   "version": "0.1.0",
   "private": true,
+  "sideEffects": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "ANALYZE=true next build",
     "start": "next start"
   },
   "dependencies": {
     "@apollo/client": "^3.3.18",
+    "@next/bundle-analyzer": "^10.2.0",
     "graphql": "^15.5.0",
     "next": "10.2.0",
     "react": "17.0.2",
